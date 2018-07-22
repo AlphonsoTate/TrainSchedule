@@ -1,0 +1,45 @@
+header{
+    width: 85%;
+    margin: auto;
+    background-color: darkblue;
+    color: white;
+    height: 3.5in;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    border:  groove red 5px;
+    text-align: center;
+     line-height: 3;
+    padding-top: 20px;
+
+}
+.TDiv{
+    margin: auto;
+    height: 400px;
+    width:85%;
+    border: solid 9px blue;
+   
+}
+
+tabl {
+    margin: auto;
+    padding-top: 40px;
+    width: 85%;
+}
+
+table {
+    margin: auto;
+    font-size: 20px;
+
+    
+}
+
+td {
+    padding-left: 30px;
+
+}
+
+th {
+    padding-left: 30px;
+}

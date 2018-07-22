@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+	<title>Train Table</title>
+	<meta charset="UTF-8">
+	<!-- Latest compiled and minified Bootstrap CSS & JS Libraries -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/Users/alphonsotate/Desktop/Classwork/Train-Schedule/Assets/css/style.css">
+	<!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+	<!-- Moment.js Reference -->
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+       
+        <title>Train Schedule</title>
+       
+    </head>
+    <body>
+
+        <header>
+          <h1>Train Schedule</h1>
+
+        </header>
+       <div class="Tdiv">
+        <table class="striped tabl">
+                <thead>
+                  <tr>
+                        <th>Train Name</th>
+                        <th>Destination</th>
+                        <th>Frequency</th>
+                        <th>Next Arrival</th>
+                        <th>Minutes Away</th>
+                  </tr>
+                </thead>
+        
+                <tbody>
+                  <tr>
+                    <td class= "train">Milwaukee</td>
+                    <td class= "destin">Chicago</td>
+                    <td class= "frequency"> 10 </td>
+                    <td class= "nextA"></td>
+                    <td class="minutesA"></td>
+                  </tr>
+                  <tr>
+                        <td class= "train">Chicago</td>
+                        <td class= "destin">Cleveland</td>
+                        <td class= "frequency">5 min</td>
+                        <td class= "nextA"></td>
+                        <td class="minutesA"></td>
+                  </tr>
+                  <tr>
+                        <td class= "train">Boston</td>
+                        <td class= "destin">New York</td>
+                        <td class= "frequency">7 min</td>
+                        <td class= "nextA"></td>
+                        <td class="minutesA"></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+         
+          <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Train Name</label>
+                  <input type="text" class="form-control tName" id="formGroupExampleInput tName" placeholder="Example input">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2 Destination">Destination</label>
+                  <input type="text" class="form-control Destination" id="formGroupExampleInput2 Destination" placeholder="Another input">
+                </div>
+                <div class="form-group">
+                        <label for="formGroupExampleInput FirstT">Frequency</label>
+                        <input type="text" class="form-control firstT" id="formGroupExampleInput firstT" placeholder="Example input">
+                      </div>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput2 Frequency">First Train Time</label>
+                        <input type="text" class="form-control frequency" id="formGroupExampleInput2 frequency" placeholder="Another input">
+                        </div>
+                      <button type="submit" class="btn btn-primary submit">Submit</button>
+              </form>
+         
+
+ 
+            
+                          
+    
+    
+    
+    
+    
+    
+    
+             
+    
+        
+        <script src= "/Users/alphonsotate/Desktop/Classwork/Train-Schedule/Assets/javascript/app.js"></script>
+       
+    </body>
+</html>
